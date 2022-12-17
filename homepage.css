@@ -17,6 +17,10 @@ img{
     justify-content: space-around;
     
 }
+#list_item a{
+    text-decoration: none;
+    color: black;
+}
 #search{
     width:250px;
     height: 35px;
@@ -33,13 +37,17 @@ img{
     display: flex;
     width: 30%;
     gap: 30px;
+    
 }
 #firstdiv{
     display: flex;
     justify-content: space-around;
     width: 40%;
     margin: auto;
-   
+}
+#firstdiv a{
+    text-decoration: none;
+    color: black;
 }
 #slidingimg{
     display: flex;
@@ -124,6 +132,7 @@ img{
 #detail{
     width: 100%;
     margin: auto;
+    
 }
 #hot_arrival{
     display: flex;
@@ -165,7 +174,7 @@ h1{
     margin-left: 15%;
     padding-top: 5%;
 }
-p {
+#text1{
     color: white;
     width: 70%;
     margin-left: 15%;
