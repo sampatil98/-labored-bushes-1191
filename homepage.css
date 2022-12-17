@@ -49,13 +49,13 @@ img{
     text-decoration: none;
     color: black;
 }
-#slidingimg{
+#sliding{
     display: flex;
     margin: auto;
     justify-content: space-between;
     
 }
-#slidingimg img{
+#slidingimg{
     width: 33%;
    
 }
@@ -78,11 +78,11 @@ img{
 #container img{
     width: 100%;
 }
-#catagory_banner{
+#catagory_banner1{
     display: flex;
     width: 100%;
 }
-#catagory_banner img{
+#catagory_banner {
     width: 50%;
 }
 #catagory_heading{

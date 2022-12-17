@@ -11,7 +11,6 @@ val.then(function(res){
 .catch(function(err){
     console.log(err)
 })
-
 let cartdata=JSON.parse(localStorage.getItem("cart"))||[];
 function displaydata(data){
     data.forEach(function(element,index){
