@@ -1,18 +1,47 @@
 
 let container =document.getElementById("product_div");
+let sortdata=[];
+let filter=document.getElementById("filter");
+let filter1=document.getElementById("filter1");
 let val=fetch("https://639b871131877e43d68e7385.mockapi.io/products");
 val.then(function(res){
     return res.json();
 })
 .then(function(res){
     let actualdata=res;
-    displaydata(actualdata)
+    sortdata=actualdata;
+    displaydata(actualdata);
+    console.log(actualdata);
 })
 .catch(function(err){
     console.log(err)
 })
 let cartdata=JSON.parse(localStorage.getItem("cart"))||[];
+let filteredData=[];
+filter.addEventListener("change",()=>{
+    
+    filteredData=sortdata.filter((element)=>{
+    if(element.type === filter.value){
+      return true
+    }else{
+      return false
+    }
+  });
+    displaydata(filteredData);
+})
+filter1.addEventListener("change",()=>{
+    
+    let filteredData1=filteredData.filter((element)=>{
+      if(element.colour === filter1.value){
+        return true
+      }else{
+        return false
+      }
+    });
+      displaydata(filteredData1);
+  })
 function displaydata(data){
+    container.innerHTML=null;
     data.forEach(function(element,index){
         if(element.category === "men"){
             let card=document.createElement("div");

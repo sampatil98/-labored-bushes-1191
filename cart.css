@@ -1,11 +1,15 @@
 img{
     width: 100%;
 }
+body{
+    background-color: rgb(231, 216, 246);
+}
 #navbar{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 90%;
     margin: auto;
+    background-color: white;
     padding-left: 8%;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -15,7 +19,6 @@ img{
     display: flex;
     width: 30%;
     justify-content: space-around;
-    
 }
 #list_item a{
     text-decoration: none;
@@ -36,8 +39,7 @@ img{
     list-style-type: none;
     display: flex;
     width: 30%;
-    gap: 30px;
-    
+    gap: 30px; 
 }
 #bag_count{
     display: flex;
@@ -72,32 +74,26 @@ img{
 #offer_div{
     display: flex;
     width: auto;
-   
 }
 #container{
     margin-top: 20px;
-    width: 50%; 
-    
+    width: 50%;  
 }
 img{
     margin-top: 5px;
     width: 50%;
     padding-left: 30%;
-    
 }
 #container>div{
     display: flex;
     width: 100%;
+    background-color: white;
     margin-top: 20px;
     justify-content: space-between;
     /* border: 1px solid red; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-    
-    
 }
 #container>div>div{
-    
     width: 50%;
     padding-left: 10%;
 }
@@ -110,12 +106,10 @@ button{
     display: flex;
     width: auto;
     gap: 20px;
-
 }
 #checkout{
     width: 40%;
     margin-top: 40px;
-
 }
 #summary{
     width: auto;
@@ -124,13 +118,11 @@ button{
     text-align: center;
     padding-top: 10px;
     background-color: rgb(228, 224, 224);
-    
 }
 #box{
     width: 100%;
     margin: auto;
-    border-radius: 5px;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border: 1px solid black;
 }
 table,tr,td{
     width: 100%;
@@ -160,10 +152,13 @@ table{
     line-height: 5px;
 }
 #continuebtn{
-    
     background-color: rgba(32, 115, 75, 0.689);
     width: 100%;
     text-align: center;
     border-radius: 10px;
+}
+#sam{
+    text-decoration: none;
+    color: aliceblue;
 }
     

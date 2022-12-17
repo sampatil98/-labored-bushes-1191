@@ -64,6 +64,24 @@ img{
     
     
 }
+#filter1{
+    width:80%;
+    padding: 10px 2px;
+    border: none;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    
+    
+}
+#filter2{
+    width:80%;
+    padding: 10px 2px;
+    border: none;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    
+    
+}
 #catlist1>li{
     list-style-type: none;
      margin: 80px 0px;

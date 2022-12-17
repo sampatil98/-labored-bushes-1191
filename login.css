@@ -46,6 +46,7 @@ img{
 #right{
     width: 50%;
     text-align: center;
+    text-decoration: none;
 }
 #left img{
     width: 100%;
@@ -65,6 +66,7 @@ img{
     font-size: 23px;
     color: rgb(12, 12, 12);
     margin-top: 30px;
+    text-decoration: none;
 }
 #mobileno{
     margin-top: 50px;
@@ -76,6 +78,7 @@ img{
 #continueBtn{
     width: 50%;
     height: 6%;
+    text-decoration: none;
     margin: auto;
     color: black;
     margin-top: 15px;
